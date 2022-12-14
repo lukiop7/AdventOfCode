@@ -136,7 +136,7 @@ public class Day7 : Day
 
         public string Name { get; init; }
         public int Size => Children.Sum(x => x.Size);
-        public List<IFile> Children = new();
+        public List<IFile> Children { get; set; } = new();
         public Directory? Parent { get; set; }
     }
 
