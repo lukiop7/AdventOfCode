@@ -2,7 +2,7 @@
 
 using AdventOfCode.Model;
 
-var day = DayFactory.Create("12", "2022");
+var day = DayFactory.Create("2", "2023");
 day.Solve();
 
 Console.WriteLine(day.PartASolution);
